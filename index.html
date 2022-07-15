@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="">
+    <header>
+        <h1>MY TASK'S</h1>
+
+        <form action="" class="form-header">
+            <input type="text" placeholder="Pesquisar Tarefas">
+            <button>seach</button>
+        </form>
+    </header>
+
+    <section class="get-tasks">
+
+        <div class="tittle">
+                 <h2>Inserir Tarefas</h2>
+        </div>
+   
+
+        <form action="" class="input-tasks">
+            <input class="tittle-tasks" type="text" placeholder="Digitar titulo da tarefa">
+       
+
+            <select name="Selecionar-tipo" id="select-type" required>
+                <option value="">Selecione o tipo</option>
+                <option value="Urgente" >Urgente</option>
+                <option value="Prioritario">Prioritário</option>
+                <option value="Normal">Normal</option>
+            </select> 
+
+            <input type="submit" value="Adicionar Taréfa" class="add-tasks"> 
+        </form>
+        <nav class="nav-done">
+            <button class="done">Finalizadas</button>
+            <button class="not-done">Não Finalizadas</button>
+        </nav>
+        
+    </section><!-- pegar tarefas -->
+
+    <section class="show-tasks">
+        <div class="task-order">
+            <h2>Tarefas</h2>
+            <p class="nv">Nível</p>
+        </div>
+
+        <ul class="show-task-list">   
+
+<!--           <li>
+            <button id="0">x</button>
+            <p>ssssssssssssss</p>
+            <span>Normal</span>
+          </li>   -->
+
+        </ul><!-- show task list end -->
+
+    </section><!-- pegar tarefas -->
+    <script src="script.js"></script>
+</body>
+</html>
